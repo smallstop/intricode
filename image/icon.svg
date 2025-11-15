@@ -1,0 +1,19 @@
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+  <g fill="none" stroke="#000000" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <!-- 左上圓點 + 上方橫線 + 向下主幹 -->
+    <circle cx="36" cy="40" r="10"></circle>
+    <path d="M46 40 H140 V148"></path>
+
+    <!-- 中間橫線 + 右上圓點 -->
+    <path d="M80 96 H210"></path>
+    <circle cx="222" cy="96" r="10"></circle>
+
+    <!-- 中段垂直 & 橫線到右中圓點 -->
+    <path d="M140 96 V164 H188"></path>
+    <circle cx="200" cy="164" r="10"></circle>
+
+    <!-- 左側豎線 + 底部大弧線 + 右下圓點 -->
+    <path d="M80 96 V176 Q80 224 148 238 T216 230"></path>
+    <circle cx="228" cy="228" r="10"></circle>
+  </g>
+</svg>

@@ -4,7 +4,7 @@
   "description": ":D",
   "version": "0.0.1",
   "engines": {
-    "vscode": "^1.106.0"
+    "vscode": "^1.85.0"
   },
   "categories": [
     "Other"
@@ -12,10 +12,45 @@
   "activationEvents": [],
   "main": "./out/extension.js",
   "contributes": {
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "intricode",
+          "title": "Intricode",
+          "type" : "tree",
+          "icon": "./image/icon.svg"
+        }
+      ]
+    },
+    "views": {
+      "intricode": [
+        {
+          "id": "intricode",
+          "name": "Intricode",
+          "icon": "./image/icon.svg"
+        }
+      ]
+    },
     "commands": [
       {
         "command": "intricode.helloWorld",
         "title": "Hello World"
+      },
+      {
+        "command": "intricode.add",
+        "title": "新增"
+      },
+      {
+        "command": "intricode.delete",
+        "title": "删除"
+      },  
+      {
+        "command": "intricode.search",
+        "title": "查詢"
+      },
+      {
+        "command": "intricode.change",
+        "title": "修改"
       }
     ]
   },
